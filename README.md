@@ -1,2 +1,2 @@
-# responsive-portfolio
-My First Responsive Portfolio 
+# Basic-Portfolio
+My Basic Portfolio

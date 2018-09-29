@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+}
+
+input {
+    margin-left: 20px; 
+    margin-bottom: 10px; 
+}
+
+.inputButton {
+    margin: 0; 
+    
+}
+
+.form-label  {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #777777;
+    font-size: 12pt; 
+    margin: 0 5px; 
+}
+
+body {
+    background-image: url(../images/gravel.png);
+    margin: 1px; 
+    width: 960px; 
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right; 
+    color: black;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 1.3vw; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #777777; 
+    text-align: center; 
+    font-size: 1.5vw; 
+    padding: 5px; 
+}
+
+#biography {
+    text-align: left; 
+    margin-top: 20px; 
+}
+
+h1, h2 {
+    background-color: #4aaaaf; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+    padding-bottom: 2px; 
+    padding-top: 2px; 
+    font-size: 2.2vw; 
+}
+
+ul, li {
+    display: inline; 
+}
+
+ul { 
+    margin-left: 30%; 
+    
+}
+
+nav {
+    border: 1px solid #cccccc; 
+    width: 960px; 
+    background-color: #ffffff; 
+    position: fixed; 
+    z-index: 10; 
+    
+}
+
+nav h1, nav h2 {
+     
+    
+    margin-left: 25%;  
+    display: inline-block; 
+    margin-right: auto;
+    margin-bottom: 0; 
+    margin-top: 0; 
+    
+}
+
+nav::after { 
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blank {
+    width: 25%; 
+    float: left; 
+    margin: 0; 
+}
+
+.name {
+    width: 50%; 
+    margin: 0; 
+}
+
+.links {
+     
+    width: 25%; 
+    float: right; 
+}
+
+    
+/* portfolio styles */
+
+.section-title {
+    color: #4aaaaf; 
+    background-color: #ffffff; 
+    border-bottom: 2px solid #cccccc;
+    margin-left: 5px; 
+    margin-right: 5px;  
+}
+
+.portfolio::after {
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.proj-column {
+    width: 45%; 
+    
+}
+
+.l {
+    float: left; 
+}
+
+.r {
+    float: right; 
+}
+
+.row {
+    width: 100%; 
+    margin: 0 auto; 
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.portfolio {
+  
+   
+    border: 10px solid #dddddd; 
+    background-color: #ffffff; 
+    
+}
+
+.contact { 
+    width: 50%; 
+    margin: 0 auto; 
+    position: relative; 
+    top: 60px; 
+    border: 10px solid #dddddd; 
+    background-color: #ffffff; 
+}
+
+.contact::after {
+    display: table; 
+    content: ""; 
+    clear: both; 
+     
+}
+
+#contactbody {
+padding: 5px; 
+}
+
+.portfolio img {
+    width: 100%;
+    padding: 10px; 
+    height: 200px; 
+    }
+
+.proj-box {
+position: relative; 
+}
+
+.proj-text { 
+    position: absolute; 
+    bottom: .01em; 
+    right: 0%; 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+/* about me styles */ 
+#headshot {
+    
+    margin: 2px; 
+    padding: 2px; 
+    float: left; 
+    border: 1px solid #dddddd;
+    height: 200px; 
+    
+     
+}
+
+footer {
+    width: 100%; 
+    background-color: #666;
+    position: fixed; 
+    bottom: 0px; 
+    border-top: 3px solid #4aaaaf;
+    font-size: 2vw; 
+    margin-top:30px; 
+
+}
+
+footer p {
+    color: #ffffff; 
+}
+
+@media screen and (max-width: 980px) {
+
+    body {
+        width: 960px; 
+        margin-top: 0px; 
+    }
+    .portfolio {
+        width: 75%; 
+        margin-left: 20px; 
+        position: relative; 
+        top: 50px; 
+    }
+
+    nav h1 {
+        margin-left: 20px; 
+    }
+
+    ul {
+        margin-left: 550px; 
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+
+
